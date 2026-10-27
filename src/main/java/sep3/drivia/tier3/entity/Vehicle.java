@@ -1,4 +1,4 @@
-package com.example.dataserver;
+package sep3.drivia.tier3.entity;
 
 import jakarta.persistence.*;
 

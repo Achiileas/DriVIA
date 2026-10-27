@@ -1,4 +1,4 @@
-package com.example.dataserver;
+package sep3.drivia.tier3.grpc;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
@@ -8,10 +8,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class GrpcServerRunner implements CommandLineRunner {
-    private final CarServiceImpl carService;
+    private final CarGrpcService carService;
     private final int port;
 
-    public GrpcServerRunner(CarServiceImpl carService, @Value("${grpc.port}") int port) {
+    public GrpcServerRunner(CarGrpcService carService, @Value("${grpc.port}") int port) {
         this.carService = carService;
         this.port = port;
     }

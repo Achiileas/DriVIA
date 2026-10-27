@@ -1,4 +1,4 @@
-package com.example.dataserver;
+package sep3.drivia.tier3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
